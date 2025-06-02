@@ -1,0 +1,81 @@
+import type { JobType } from "./types"
+
+export const featuredJobs: JobType[] = [
+  {
+    id: 1,
+    title: "Senior Frontend Developer",
+    company: "Google",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Mountain View, CA",
+    remote: true,
+    type: "Full-time",
+    salary: "120K - 160K",
+    description:
+      "We're looking for a Senior Frontend Developer to join our team and help build the next generation of web applications.",
+    tags: ["React", "TypeScript", "Next.js", "recommended"],
+  },
+  {
+    id: 2,
+    title: "Backend Engineer",
+    company: "Microsoft",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Redmond, WA",
+    remote: true,
+    type: "Full-time",
+    salary: "130K - 170K",
+    description: "Join our backend team to build scalable and reliable services that power our products.",
+    tags: ["Node.js", "Python", "AWS", "recommended"],
+  },
+  {
+    id: 3,
+    title: "UX/UI Designer",
+    company: "Apple",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Cupertino, CA",
+    remote: false,
+    type: "Full-time",
+    salary: "110K - 150K",
+    description:
+      "Design beautiful and intuitive user interfaces for our products that millions of people use every day.",
+    tags: ["Figma", "UI Design", "User Research"],
+  },
+  {
+    id: 4,
+    title: "Data Scientist",
+    company: "Amazon",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Seattle, WA",
+    remote: true,
+    type: "Full-time",
+    salary: "140K - 180K",
+    description:
+      "Work with large datasets to extract insights and build machine learning models that drive business decisions.",
+    tags: ["Python", "Machine Learning", "SQL", "recommended"],
+  },
+  {
+    id: 5,
+    title: "DevOps Engineer",
+    company: "Netflix",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Los Gatos, CA",
+    remote: true,
+    type: "Full-time",
+    salary: "125K - 165K",
+    description:
+      "Build and maintain our cloud infrastructure and deployment pipelines to ensure reliable and scalable services for our users.",
+    tags: ["AWS", "Kubernetes", "CI/CD", "Docker"],
+  },
+  {
+    id: 6,
+    title: "Product Manager",
+    company: "Facebook",
+    companyLogo: "/placeholder.svg?height=48&width=48",
+    location: "Menlo Park, CA",
+    remote: false,
+    type: "Full-time",
+    salary: "135K - 175K",
+    description:
+      "Lead product development from conception to launch, working with cross-functional teams to deliver exceptional user experiences.",
+    tags: ["Product Strategy", "Agile", "User Experience", "recommended"],
+  },
+]
